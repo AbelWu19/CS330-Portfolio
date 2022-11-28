@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <link rel="stylesheet" href="portfolio.css">
+        <script src="main.js"></script>
+        <meta charset="utf-8">
+        <title>Isabella Wu</title>
+    </head>
+    <body>
+        <nav role=navigation class="top-nav">
+            <ul>
+                <a class="nav-link" href="#" onClick="changePage('home.html');">
+                    <li nav aria-current="page" tabindex=0>Home</li>
+                </a>
+                <li tabindex=1><a aria-haspopup="true" aria-expanded="false">About</a>
+                    <ul class="pulldown-menu">
+                        <a class="nav-link" href="#" onClick="changePage('biography.html');">
+                            <li>Biography</li>
+                        </a>
+                        <a class="nav-link" href="#" onClick="changePage('visualization.html');">
+                            <li>Visualization</li>
+                        </a>
+                        <a class="nav-link" href="#" onClick="changePage('Resume.pdf');">
+                            <li>Resume</li>
+                        </a>
+                    </ul>
+                </li>
+                <a class="nav-link" href="#" onClick="changePage('contact.html');">
+                    <li tabindex=2>Contact</li>
+                </a>
+                <a class="nav-link" href="#" onClick="changePage('data.html');">
+                    <li nav aria-current="page" tabindex=3>Data</li>
+                </a>
+            </ul>
+        </nav>
+        <main>
+            <h1>Isabella Wu</h1>
+            <p>Clicking on the projects will bring you to an external site containing the project</p>
+        </main>
+        <body>
+            <div class="bookshelf">
+                <div class="book">
+                    <a class="nav-link" href="#" onClick="changePage('P5/albums.html');">
+                        <h1 class="title">Project 1</h1>
+                        <h2 class="author">iPod Music Interface</h2>
+                            <img class="cover" src="iPod.png" alt="Cover Art"/>
+                        <div class="book-info">
+                        <span class="publisher">CS330</span>
+                        <span class="year"> Nov 4 2022 </span>
+                        </div>
+                    </a>
+                </div>
+                <div class="book">
+                    <a class="nav-link" href="#" onClick="changePage('Faustian Play.pdf');">
+                        <h1 class="title">Project 2</h1>
+                        <h2 class="author">Modern Faustian Play</h2>
+                            <img class="cover" src="Faust.png" alt="Cover Art">
+                        <div class="book-info">
+                        <span class="publisher">German232</span>,
+                        <span class="year"> Dec 9 2021 </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </body>
+    </body>
+</html>

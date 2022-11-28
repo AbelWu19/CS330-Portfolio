@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="portfolio.css">
+        <script src="main.js"></script>
+        <meta charset="utf-8">
+        <title>Biography</title>
+    </head>
+    <body>
+        <nav role=navigation class="top-nav">
+            <ul>
+                <a class="nav-link" href="#" onClick="changePage('home.html');">
+                    <li nav aria-current="page" tabindex=0>Home</li>
+                </a>
+                <li tabindex=1><a aria-haspopup="true" aria-expanded="false">About</a>
+                    <ul class="pulldown-menu">
+                        <a class="nav-link" href="#" onClick="changePage('biography.html');">
+                            <li>Biography</li>
+                        </a>
+                        <a class="nav-link" href="#" onClick="changePage('visualization.html');">
+                            <li>Visualization</li>
+                        </a>
+                        <a class="nav-link" href="#" onClick="changePage('Resume.pdf');">
+                            <li>Resume</li>
+                        </a>
+                    </ul>
+                </li>
+                <a class="nav-link" href="#" onClick="changePage('contact.html');">
+                    <li tabindex=2>Contact</li>
+                </a>
+                <a class="nav-link" href="#" onClick="changePage('data.html');">
+                    <li nav aria-current="page" tabindex=3>Data</li>
+                </a>
+            </ul>
+        </nav>
+        <main>
+            <h1>Isabella Wu</h1>
+            <p>I am a student at Northwestern. I am majoring in Economics, minoring in Computer Science, and am also part of the Kellogg Certificate Program for Undergraduates, concentrating on Managerial Analytics.</p>
+        </main>
+   </body>
+</html>
